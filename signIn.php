@@ -12,25 +12,28 @@ if(!$db)
     echo "Connected ". "<br>";
 }
 
-if(isset($_POST['username']) || isset($_POST['password']))
+if(isset($_POST['email']) || isset($_POST['pass']))
 {
 //initializing user input
 
-$username = $_POST['username'];
-$pass = $_POST['password'];
+$email = $_POST['email'];
+$pass = $_POST['pass'];
 
-if(!empty($username) && !empty($pass))
+if(!empty($email) && !empty($pass))
 {
-    $id = "SELECT id from user_info where username='$username' and password='$pass'";
+    $id = "SELECT id from user_info where email='$email' and pass='$pass'";
+    $fname= "SELECT first_name from user_info where email='$email' and pass='$pass'";
+    $lname= "SELECT last_name from user_info where email='$email' and pass='$pass'";
     $result = mysqli_query($db,$id);
     $mysqli_result = mysqli_num_rows($result);
     if($mysqli_result)
     {
-        echo 'Login successful';
+        echo "Welcome . $fname . $lname";
+        
     }
     else
     {
-        echo 'Invalid username or passwprd';
+        echo 'Invalid username or password';
     }
 
 
@@ -40,3 +43,19 @@ if(!empty($username) && !empty($pass))
 }
 
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    
+</body>
+</html>
