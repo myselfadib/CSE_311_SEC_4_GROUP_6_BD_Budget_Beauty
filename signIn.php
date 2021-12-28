@@ -1,7 +1,7 @@
 <?php
 $db = mysqli_connect("localhost","root","","bd_budget_beauty");
 
-if(!$db)
+/*if(!$db)
     {
         die("Connection failed: ". mysqli_connect_error());  //testing is db connected or not
 
@@ -11,7 +11,7 @@ if(!$db)
 {
     echo "Connected ". "<br>";
 }
-
+*/
 if(isset($_POST['email']) || isset($_POST['pass']))
 {
 //initializing user input
@@ -28,7 +28,7 @@ if(!empty($email) && !empty($pass))
     $mysqli_result = mysqli_num_rows($result);
     if($mysqli_result)
     {
-        echo "Welcome . $fname . $lname";
+        echo "Welcome to BD Budget Beauty";
         
     }
     else
@@ -43,6 +43,7 @@ if(!empty($email) && !empty($pass))
 }
 
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
