@@ -27,15 +27,14 @@ if(!empty($email) && !empty($pass))
     $result = mysqli_query($db,$id);
     $mysqli_result = mysqli_num_rows($result);
     $mysqli_result = $result -> fetch_assoc();
-    if($mysqli_result)
+    if(!$mysqli_result)
     {
-        //echo "<h1>".'Welcome '.$mysqli_result["first_name"]." ".$mysqli_result["last_name"]." to BD Budget Beauty"."</h1>";
-        //header('Location: afterSignIn.php');
+        header("Location:Invalidpass.html");
+
+
     }
-    else
-    {
-        echo 'Invalid username or password';
-    }
+    
+        //echo "<h1>".'Welcome '.$mysqli_result["first_name"]." ".$mysqli_result["last_name"]." to BD Budget Beauty"."</h1>";        //header('Location: afterSign}
 
 
 }
@@ -44,7 +43,6 @@ if(!empty($email) && !empty($pass))
 }
 
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -137,6 +135,7 @@ if(!empty($email) && !empty($pass))
         <div style="background-color: white;height: 580px;width: 1270px;margin-top: 80px;">
             <div style="background-color: white;height: 570px;width: 650px;float: left;">
                 <a href="EvalineMakeup.html">
+                    <?php// header("Location:EvelineMakeup.php"); ?>
                     <img src="bbb4.jpg" style="height: 500px;width: 540px; margin-left: 50px;box-shadow:0 0 2px 1px black;">
                     <br><a style="font-style: normal;font-family: sans-serif;font-weight: bold;margin-left: 250px;">Eveline Makeup</a>
                 </a>
