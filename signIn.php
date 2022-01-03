@@ -285,7 +285,7 @@ if(!empty($email) && !empty($pass))
 
                 <div style="float: left;background-color: white;height: 290px;width: 312px;">
                     <img src="BBB31.jpg" style="width: 312px;height: 290px;">
-                    <button style="height: 50PX;width: 100PX;margin-left: 90PX;background-color: rgb(255, 21, 157);;">QUICK SHOP</button>
+                 <a href="BBB31.html">   <button style="height: 50PX;width: 100PX;margin-left: 90PX;background-color: rgb(255, 21, 157);;">QUICK SHOP</button>
                 <BR><br><a style="margin-left: 20PX;">GOSH DEXTREME HIGH COVERAGE</a>
                     <a style="text-align: center;margin-left: 104px;">POWDER</a><br><br>
                     <a style="font-weight: bolder; margin-left: 100px;">TK 1,650.00</a>
@@ -296,7 +296,7 @@ if(!empty($email) && !empty($pass))
 
                 <div style="float: left;background-color: white;height: 290px;width: 312px;">
                     <img src="BBB32.jpg" style="width: 312px;height: 290px;">
-                    <button style="height: 50PX;width: 100PX;margin-left: 105PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
+                    <a href="BBB32.html">  <button style="height: 50PX;width: 100PX;margin-left: 105PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
                     <BR><br><a style="margin-left: 50PX;">EVELINE SELFIE TIME 2 IN 1 </a>
                         <a style="text-align: center;margin-left: 64px;">COVERING FOUNDATION</a><br><br>
                         <a style="font-weight: bolder; margin-left: 120px;">TK 850.00</a>
@@ -305,7 +305,7 @@ if(!empty($email) && !empty($pass))
 
                 <div style="float: left;background-color: white;height: 290px;width: 312px;">
                     <img src="BBB33.jpg" style="width: 312px;height: 290px;">
-                    <button style="height: 50PX;width: 100PX;margin-left: 100PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
+                    <a href="BBB33.html">  <button style="height: 50PX;width: 100PX;margin-left: 100PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
                     <BR><br><a style="margin-left: 50PX;">BIELENDA BLUEBERRY C-TOX </a>
                         <a style="text-align: center;margin-left: 44px;">Brightening FACE WASH ALL SKIN</a><br><br>
                         <a style="font-weight: bolder; margin-left: 120px;">TK 1,200.00</a>
@@ -315,7 +315,7 @@ if(!empty($email) && !empty($pass))
 
                 <div style="float: left;background-color: white;height: 290px;width: 312px;">
                     <img src="BBB34.jpg" style="width: 312px;height: 290px;">
-                    <button style="height: 50PX;width: 100PX;margin-left: 100PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
+                    <a href="BBB34.html">   <button style="height: 50PX;width: 100PX;margin-left: 100PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
                     <BR><br><a style="margin-left: 50PX;">RUDE- STAR PARTY LIQUID  </a>
                         <a style="text-align: center;margin-left: 54px;">EYESHADOW - SOLSTICE</a><br><br>
                         <a style="font-weight: bolder; margin-left: 120px;">TK 1,250.00</a>
@@ -329,7 +329,7 @@ if(!empty($email) && !empty($pass))
 
                 <div style="float: left;background-color: white;height: 290px;width: 312px;">
                     <img src="BBB35.jpg" style="width: 312px;height: 290px;">
-                    <button style="height: 50PX;width: 100PX;margin-left: 90PX;background-color: rgb(255, 21, 157);;">QUICK SHOP</button>
+                    <a href="BBB35.html">   <button style="height: 50PX;width: 100PX;margin-left: 90PX;background-color: rgb(255, 21, 157);;">QUICK SHOP</button>
                 <BR><br><a style="margin-left: 20PX;">GOSH HIGH COVERAGE CONCEALER</a>
                     <a style="text-align: center;margin-left: 104px;">POWDER</a><br><br>
                     <a style="font-weight: bolder; margin-left: 100px;">TK 1,490.00</a>
@@ -340,7 +340,7 @@ if(!empty($email) && !empty($pass))
 
                 <div style="float: left;background-color: white;height: 290px;width: 312px;">
                     <img src="BBB36.jpg" style="width: 312px;height: 290px;">
-                    <button style="height: 50PX;width: 100PX;margin-left: 105PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
+                    <a href="BBB36.html">    <button style="height: 50PX;width: 100PX;margin-left: 105PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
                     <BR><br><a style="margin-left: 50PX;">EVELINE ART MAKE-UP ANTI  </a>
                         <a style="text-align: center;margin-left: 10px;">SHINE COMPLEX PRESSED POWDER</a><br><br>
                         <a style="font-weight: bolder; margin-left: 120px;">TK 850.00</a>
@@ -349,7 +349,7 @@ if(!empty($email) && !empty($pass))
 
                 <div style="float: left;background-color: white;height: 290px;width: 312px;">
                     <img src="BBB37.jpg" style="width: 312px;height: 290px;">
-                    <button style="height: 50PX;width: 100PX;margin-left: 100PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
+                    <a href="BBB37.html">   <button style="height: 50PX;width: 100PX;margin-left: 100PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
                     <BR><br><a style="margin-left: 50PX;">BIELENDA SMOOTHY CREAM </a>
                         <a style="text-align: center;margin-left: 14px;">PREBIOTIC CREAMY FOAM FACE WASH</a><br><br>
                         <a style="font-weight: bolder; margin-left: 120px;">TK 1,250.00</a>
@@ -359,7 +359,7 @@ if(!empty($email) && !empty($pass))
 
                 <div style="float: left;background-color: white;height: 290px;width: 312px;">
                     <img src="BBB38.jpg" style="width: 312px;height: 290px;">
-                    <button style="height: 50PX;width: 100PX;margin-left: 100PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
+                    <a href="BBB38.html">    <button style="height: 50PX;width: 100PX;margin-left: 100PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
                     <BR><br><a style="margin-left: 50PX;">RUDE- STAR PARTY LIQUID  </a>
                         <a style="text-align: center;margin-left: 34px;">EYESHADOW - SHE'S A STAR</a><br><br>
                         <a style="font-weight: bolder; margin-left: 120px;">TK 1,250.00</a>
@@ -373,7 +373,7 @@ if(!empty($email) && !empty($pass))
 
                 <div style="float: left;background-color: white;height: 290px;width: 312px;">
                     <img src="BBB39.jpg" style="width: 312px;height: 290px;">
-                    <button style="height: 50PX;width: 100PX;margin-left: 90PX;background-color: rgb(255, 21, 157);;">QUICK SHOP</button>
+                    <a href="BBB39.html">    <button style="height: 50PX;width: 100PX;margin-left: 90PX;background-color: rgb(255, 21, 157);;">QUICK SHOP</button>
                 <BR><br><a style="margin-left: 20PX;">RUDE STAR PARTY LIQUID</a>
                     <a style="text-align: center;margin-left: 24px;">EYESHADOW- FALLING STAR</a><br><br>
                     <a style="font-weight: bolder; margin-left: 100px;">TK 1,250.00</a>
@@ -384,7 +384,7 @@ if(!empty($email) && !empty($pass))
 
                 <div style="float: left;background-color: white;height: 290px;width: 312px;">
                     <img src="BBB40.jpg" style="width: 312px;height: 290px;">
-                    <button style="height: 50PX;width: 100PX;margin-left: 105PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
+                    <a href="BBB40.html">    <button style="height: 50PX;width: 100PX;margin-left: 105PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
                     <BR><br><a style="margin-left: 50PX;">EVELINE BIO BURDOCK THERAPY  </a>
                         <a style="text-align: center;margin-left: 90px;">BIOACTIVE SHAMPOO</a><br><br>
                         <a style="font-weight: bolder; margin-left: 120px;">TK 1,000.00</a>
@@ -393,7 +393,7 @@ if(!empty($email) && !empty($pass))
 
                 <div style="float: left;background-color: white;height: 290px;width: 312px;">
                     <img src="BBB41.jpg" style="width: 312px;height: 290px;">
-                    <button style="height: 50PX;width: 100PX;margin-left: 100PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
+                    <a href="BBB41.html">   <button style="height: 50PX;width: 100PX;margin-left: 100PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
                     <BR><br><a style="margin-left: 50PX;">CIATE LONDON THE EDITOR </a>
                         <a style="text-align: center;margin-left: 114px;">PALETTE</a><br><br>
                         <a style="font-weight: bolder; margin-left: 120px;">TK 4,500.00</a>
@@ -403,7 +403,7 @@ if(!empty($email) && !empty($pass))
 
                 <div style="float: left;background-color: white;height: 290px;width: 312px;">
                     <img src="BBB42.jpg" style="width: 312px;height: 290px;">
-                    <button style="height: 50PX;width: 100PX;margin-left: 100PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
+                    <a href="BBB42.html">    <button style="height: 50PX;width: 100PX;margin-left: 100PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
                     <BR><br><a style="margin-left: 50PX;">EVELINE VELVET MATT LIPSTICK  </a>
                         <a style="text-align: center;margin-left: 124px;">NO. 511</a><br><br>
                         <a style="font-weight: bolder; margin-left: 120px;">TK 690.00</a>
@@ -417,7 +417,7 @@ if(!empty($email) && !empty($pass))
 
                 <div style="float: left;background-color: white;height: 290px;width: 312px;">
                     <img src="BBB43.jpg" style="width: 312px;height: 290px;">
-                    <button style="height: 50PX;width: 100PX;margin-left: 90PX;background-color: rgb(255, 21, 157);;">QUICK SHOP</button>
+                    <a href="BBB43.html">   <button style="height: 50PX;width: 100PX;margin-left: 90PX;background-color: rgb(255, 21, 157);;">QUICK SHOP</button>
                 <BR><br><a style="margin-left: 20PX;">BIELENDA BLUEBERRY C-TOX</a>
                     <a style="text-align: center;margin-left: 10px;">MOISTURIZING & BRIGHTENING MASK</a><br><br>
                     <a style="font-weight: bolder; margin-left: 100px;">TK 250.00</a>
@@ -428,7 +428,7 @@ if(!empty($email) && !empty($pass))
 
                 <div style="float: left;background-color: white;height: 290px;width: 312px;">
                     <img src="BBB44.jpg" style="width: 312px;height: 290px;">
-                    <button style="height: 50PX;width: 100PX;margin-left: 105PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
+                    <a href="BBB44.html">    <button style="height: 50PX;width: 100PX;margin-left: 105PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
                     <BR><br><a style="margin-left: 50PX;">EVELINE CONTOUR STROBING </a>
                         <a style="text-align: center;margin-left: 70px;">SENSATION 4 PALETTE</a><br><br>
                         <a style="font-weight: bolder; margin-left: 120px;">TK 1,550.00</a>
@@ -437,7 +437,7 @@ if(!empty($email) && !empty($pass))
 
                 <div style="float: left;background-color: white;height: 290px;width: 312px;">
                     <img src="BBB45.jpg" style="width: 312px;height: 290px;">
-                    <button style="height: 50PX;width: 100PX;margin-left: 100PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
+                    <a href="BBB45.html">  <button style="height: 50PX;width: 100PX;margin-left: 100PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
                     <BR><br><a style="margin-left: 50PX;">RUDE STAR PARTY LIQUID </a>
                         <a style="text-align: center;margin-left: 14px;">EYESHADOW GALACTIC VOYAGE</a><br><br>
                         <a style="font-weight: bolder; margin-left: 120px;">TK 1,250.00</a>
@@ -447,7 +447,7 @@ if(!empty($email) && !empty($pass))
 
                 <div style="float: left;background-color: white;height: 290px;width: 312px;">
                     <img src="BBB46.jpg" style="width: 312px;height: 290px;">
-                    <button style="height: 50PX;width: 100PX;margin-left: 100PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
+                    <a href="BBB46.html">   <button style="height: 50PX;width: 100PX;margin-left: 100PX;background-color: rgb(255, 21, 157);">QUICK SHOP</button>
                     <BR><br><a style="margin-left: 50PX;">GOSH DEXTREME FULL  </a>
                         <a style="text-align: center;margin-left: 34px;">COVERAGE FOUNDATION</a><br><br>
                         <a style="font-weight: bolder; margin-left: 120px;">TK 1,950.00</a>
