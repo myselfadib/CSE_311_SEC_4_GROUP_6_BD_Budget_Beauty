@@ -6,6 +6,7 @@ if(isset($_POST['id']))
 {
 //initializing user input
 
+
 $user_id = $_POST['id'];
 $product_name = ' GOSH DEXTREME HIGH COVERAGE POWDER ';
 $price = 1650;
@@ -14,26 +15,39 @@ $amount = $price;
 
 if(!empty($user_id))
 {
-    $id = "SELECT id from user_info where id='$user_id'";
+    $id = "SELECT id from user_info where email='$user_id'";
    // $fname= "SELECT first_name from user_info where email='$email' and pass='$pass'";
    // $lname= "SELECT last_name from user_info where email='$email' and pass='$pass'";
     $result = mysqli_query($db,$id);
     $mysqli_result = mysqli_num_rows($result);
     $mysqli_result = $result -> fetch_assoc();
+    $userid = $mysqli_result["id"] ;
+    
     if(!$mysqli_result)
     {
         //$userInfoInsert = "INSERT INTO cart(user_id,Product_name,price,amount) VALUES ($user_id,'$product_name',$price,$amount)";
-echo 'Invalid user id';
+echo 'Invalid user email';
 
 
 
 
     }
     else{
-        $userInfoInsert = "INSERT INTO cart(user_id,Product_name,price,amount) VALUES ($user_id,'$product_name',$price,$amount)";
+        $userInfoInsert = "INSERT INTO cart(user_id,Product_name,price,amount) VALUES ($userid,'$product_name',$price,$amount)";
         if(mysqli_query($db,$userInfoInsert))
+
 {
-    echo "Information added";
+    date_default_timezone_set('Asia/Dhaka');
+$date = date('Y-m-d H:i:s');
+    $cid = "SELECT cart_id from cart where user_id='$userid' and date='$date'";
+   // $fname= "SELECT first_name from user_info where email='$email' and pass='$pass'";
+   // $lname= "SELECT last_name from user_info where email='$email' and pass='$pass'";
+    $resulti = mysqli_query($db,$cid);
+    $mysqli_resulti = mysqli_num_rows($resulti);
+    $mysqli_resulti = $resulti -> fetch_assoc();
+    $cartid = $mysqli_resulti["cart_id"] ;
+
+    
 
 }
 else
@@ -62,42 +76,35 @@ else
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<style>
 
-table
-
-{
-
-border-style:solid;
-
-border-width:2px;
-
-border-color:black;
-
-}
 <body>
     
     
-        <div style="background-color:rgb(247, 48, 131); height: 400px;width: 740px;margin-top: 100px;margin-left: 300px;float: left;">
+        <div style="background-color:rgb(247, 48, 131); height: 400px;width: 950px;margin-top: 100px;margin-left: 150px;float: left;">
+        <h1 style="color:white">ITEM HAS BEEN ADDED</h1>
+        <h2>YOUR CART :</h2>
+          <?php 
+          
+          echo "<table border='1' width='700' cellspacing='0' bgcolor='white'>";
+          echo "<tr'>";
+          echo"<th>User ID</th>";
+          echo "<th>Cart ID</th>";
+          echo "<th>Product Name</th>";
+          echo "<th>Amount</th>";
+          echo "</tr>";
+          echo "<tr'>";
+          echo"<td>".$mysqli_result["id"]."</td>";
+          echo "<td>".$mysqli_resulti["cart_id"]."</td>";
+          echo "<td>GOSH DEXTREME HIGH COVERAGE POWDER</td>";
+          echo "<td>1650</td>";
+          echo "</tr>";
+          echo "</table>";
+          
+          
+          
+          
+          ?>
          
-         <?php //echo "added";?>
-        <?php echo "<table>" ?>
- <?php echo "<tr>" ?>
-  <?php echo "<th>"."User_ID"."</th>" ?>
-   <?php //echo "<th>"."Cart_ID"."</th>" ?>
-   <?php echo "<th>" ."Product Name"."</th>" ?>
-  <?php // echo " <th>"."Date"."</th>" ?>
-  <?php echo "<th>"."Amount"."</th>" ?>
-  <?php echo "</tr>" ?>
-  <?php echo "<tr>" ?>
-  <?php echo "<td>".$user_id."</td>" ?>
-  <?php  echo "<td>".$product_name."</td>" ?>
-  <?php //echo "<td>".$user_id."</td>" ?>
-  <?php  echo "<td>".$amount."</td>" ?>
-   <?php //echo "<td>".Germany."</td>" ?>
- <?php echo "</tr>" ?>
- 
-<?php "</table>" ?>
          
          
 
